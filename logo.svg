@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ring" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#aea7ca"/>
+      <stop offset="55%" stop-color="#614bb6"/>
+      <stop offset="100%" stop-color="#794b8b"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="6%" y1="30%" x2="94%" y2="70%">
+      <stop offset="0%" stop-color="#d7d0f0"/>
+      <stop offset="50%" stop-color="#8d7cd6"/>
+      <stop offset="100%" stop-color="#b183c9"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#ring)" stroke-width="3.4" opacity="0.9"/>
+  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#ring)" stroke-width="1" opacity="0.32"/>
+
+  <!-- ave migratoria en vuelo: un solo trazo, alas apuntadas, rumbo ascendente -->
+  <path d="M28 118
+           C 46 76, 60 74, 76 100
+           C 84 113, 92 108, 100 96
+           C 108 84, 116 89, 124 102
+           C 140 128, 154 78, 172 66"
+        fill="none" stroke="url(#mark)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- estrella guia -->
+  <circle cx="148" cy="52" r="5.5" fill="url(#mark)"/>
+</svg>
